@@ -16,4 +16,7 @@ $ cp .env.example .env
 $ php artisan jwt:secret
 
 $ php artisan serve
+
 ```
+
+> Frontend using Quasar Framework https://github.com/neatpro/Quasar-JWT.git
