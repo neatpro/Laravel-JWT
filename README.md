@@ -12,8 +12,11 @@ $ git clone https://github.com/neatpro/Laravel-JWT.git
 
 $ cd Laravel-JWT
 $ composer install
+
 $ cp .env.example .env
 $ php artisan migrate
+$ php artisan seed
+
 $ php artisan jwt:secret
 
 $ php artisan serve
